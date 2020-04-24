@@ -1,0 +1,134 @@
+.right-content{
+    padding-left: 30px;
+    padding-top: 17px;
+    padding-right: 30px;
+    
+}
+
+.str-title{
+    padding-bottom: 21px;
+}
+.r-blocks{
+    display: flex;
+}
+
+.left, .right{
+    width: 547px;
+    height: 185px;
+    background-color: #fff;
+    margin-right: 30px;
+    margin-bottom: 22px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.0212249);
+    border-radius: 5px;
+    
+}
+
+.fs-16{
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.mainblock{
+    display: flex;
+    background-color: #fff;
+    width: 1124px;
+height: 494px;
+    /* justify-content: flex-end; */
+}
+
+.main-left{
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+}
+
+.main-left-top{
+    display: flex;
+}
+
+.square2{
+    width: 195px;
+    height: 240px;
+    background-color: rgba(1,84,254,0.04);
+    margin: 16px;
+}
+
+.six{
+    width: 659px;
+    height: 240px;
+    background-color: rgba(1,84,254,0.04);
+    margin: 16px;
+}
+
+.sbl, .cls{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-left-bottom{
+    background-color: rgba(1,84,254,0.04);
+    width: 870px;
+    height: 197px;
+    /* height: auto; */
+    /*padding-bottom: 20px;*/
+    margin: 16px;
+}
+
+.ttl-blc{
+    padding: 8px;
+}
+
+.txt-shft{
+    /*padding-left: 40px;*/
+    margin-top: 10px;
+}
+
+.colomn{
+    padding-left: 8px;
+    padding-right: 44px;
+    margin-left: 16px;
+    margin-right: 44px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.gra-str{
+    color: rgba(74, 74, 74, 0.5);
+}
+
+.six-block{
+    width: 98px;
+    height: 158px;
+    background-color: rgba(1,84,254,0.04);
+    margin: 5px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+}
+
+.main-right{
+    width: 195px;
+    height: 440px;
+    background-color: rgba(1,84,254,0.04);
+    margin: 16px;
+    padding: 8px;
+}
+
+.def-pad{
+    margin: 16px;
+}
+
+.text-blc{
+    padding: 3% 3% 2% 3%;
+}
+
+.fs-12{
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.fs-14{
+    font-size: 14px;
+    line-height: 16px;
+}

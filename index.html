@@ -1,0 +1,128 @@
+<!-- Ссылка на макет https://www.figma.com/file/rts9KyKTXUizDEwFdGOK1B/flex-task?node-id=0%3A1
+
+Задание:
+- Необходимо заверстать макет используя flexbox модули css;
+- использовать другие методы (блочную, табличную гриды) нельзя;
+- без адаптива;
+- только для десктопной версии; -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/global.css">
+    <link rel="stylesheet" href="./style/leftbar.css">
+    <link rel="stylesheet" href="./style/right-content.css">
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="content">
+        <div class="leftbar">
+            <div class="title">
+                <h1 class="title">USABILITY TEST PLAN <br>DASHBOARD</h1>
+            </div>
+            <div class="block">
+                <div class="describe fs-14">The service/product that is going to be tested</div>
+                <div class="square ungle"></div>
+            </div>
+            <div class="block">
+                <div class="describe fs-14">Business requirements</div>
+                <div class="square ungle"></div>
+            </div>
+            <div class="block">
+                <div class="describe fs-14">User requirements</div>
+                <div class="square ungle"></div>
+            </div>
+            <div class="block">
+                <div class="describe fs-14">Location & dates of the tests</div>
+                <div class="square ungle"></div>
+            </div>
+        </div>
+        <div class="right-content">
+            <div class="top-block"> 
+                <div class="str-title fs-16">Test Objectives</div>
+                <div class="r-blocks">
+                    <div class="left">
+                        <div class="fs-14 gra-str text-blc"><b>Why are you doing this user testing? What are the benefits Any risks of not achieving this test?</b></div>
+                    </div>
+                    <div class="right">
+                        <div class="fs-14 gra-str text-blc"><b>What are the goals of the usability test? What are the specific questions that will be answered? What hypothesis that will be tested?</b></div>
+                    </div>
+                </div>
+            </div>
+            <div class="str-title fs-16">Test Preparation</div>
+            <div class="mainblock ungle">
+                <div class="main-left">
+                    <div class="main-left-top">
+                        <div class="square2 ungle">
+                            <div class="fs-14 text-blc">Teams who are involved and what are their responsibilities?</div>
+                        </div>
+                        <div class="six">
+                            <div class="title-six fs-14 text-blc">
+                                <div class="blc-str">Test plan / procedure</div>
+                                <div class="gra-str"><b>List the main steps of the test procedure</b></div>
+                            </div>
+                            <div class="sbl fs-14 gra-str">
+                                <div class="six-block ungle">
+                                    <b>1</b>
+                                </div>
+                                <div class="six-block ungle">
+                                    <b>2</b>
+                                </div>
+                                <div class="six-block ungle">
+                                    <b>3</b>
+                                </div>
+                                <div class="six-block ungle">
+                                    <b>4</b>
+                                </div>
+                                <div class="six-block ungle">
+                                    <b>5</b>
+                                </div>
+                                <div class="six-block ungle">
+                                    <b>6</b>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-left-bottom ungle">
+                        <div class="ttl-blc fs-14">
+                            Review before the test (check if done)
+                        </div>
+                        <div class="cls">
+                            <div class="colomn">
+                                <p class="fs-14"><input type="checkbox" name="mail" id="">Email Participants</p>
+                                <div class="txt-shft">
+                                    <p class="fs-12">If checked, write the date that was sent</p>
+                                    <p class="fs-12"><b>Date:</b></p>
+                                </div>
+                            </div>
+                            <div class="colomn">
+                                <p class="fs-14">Reminder participants about the tests</p>
+                                <div class="txt-shft">
+                                    <p class="fs-12">Write the number and dates of the reminders</p>
+                                    <p class="fs-12">If reminder was done, please check the box</p>
+                                    <p class="fs-12 "><input type="checkbox" name="" id=""><b>Reminder #1 - Date:</b></p>
+                                    <p class="fs-12 "><input type="checkbox" name="" id=""><b>Reminder #2 - Date:</b></p>
+                                </div>
+                            </div>
+                            <div class="colomn">
+                                <p class="fs-14"><input type="checkbox" name="" id="">Ethical Approval prepared and sent</p>
+                                <p class="fs-14"><input type="checkbox" name="" id="">Recording consent form prepared for the test session</p>
+                                <p class="fs-14"><input type="checkbox" name="" id="">Usability testing checklist prepared for the test session</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-right ungle fs-14">
+                    <div>
+                        <p class="text-blc">Test tasks</p>
+                        <p class="gra-str text-blc"><b>List the test tasks</b></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
